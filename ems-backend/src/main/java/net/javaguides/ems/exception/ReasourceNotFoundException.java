@@ -1,0 +1,13 @@
+package net.javaguides.ems.exception;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@ResponseStatus(value = HttpStatus.NOT_FOUND)
+public class ReasourceNotFoundException extends RuntimeException {
+
+    public ReasourceNotFoundException(String message){
+        super(message);
+    }
+
+}

@@ -1,0 +1,197 @@
+# Root .gitignore for Full-Stack Employee Management System
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.iws
+*.iml
+*.ipr
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Build and Dependency Directories
+ems-backend/target/
+ems-frontend/node_modules/
+ems-frontend/dist/
+ems-frontend/dist-ssr/
+
+# Log Files
+*.log
+logs/
+ems-backend/logs/
+ems-frontend/logs/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary Files
+*.tmp
+*.temp
+.cache/
+.tmp/
+
+# Windows Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux Files
+*~
+.directory
+.Trash-*
+
+# Archive Files
+*.rar
+*.zip
+*.7z
+*.tar.gz
+*.tgz
+
+# Backup Files
+*.bak
+*.backup
+*.orig
+*.old
+
+# Maven Wrapper (if not committed)
+# ems-backend/.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot
+ems-backend/*.jar
+ems-backend/*.war
+ems-backend/*.ear
+
+# IntelliJ IDEA
+ems-backend/.idea/
+ems-frontend/.idea/
+
+# VS Code
+ems-backend/.vscode/
+ems-frontend/.vscode/
+
+# Node.js
+ems-frontend/npm-debug.log*
+ems-frontend/yarn-debug.log*
+ems-frontend/yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# JetBrains IDEs
+.idea/
+
+# VS Code
+.vscode/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
